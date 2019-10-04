@@ -13,48 +13,56 @@
 
 <body>
 
-  <span class="bckg"></span>
-  <header>
-    <a href="#"><h1>Dashboard</h1></a>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html" data-title="Home">Home</a>
-        </li>
-        <li>
-          <a href="team.html" data-title="Team">Team</a>
-        </li>
-        <li>
-          <a href="diary.html" data-title="Diary">Diary</a>
-        </li>
-        <li>
-          <a href="timeline.html" data-title="Timeline">Timeline</a>
-        </li>
-        <li>
-          <a href="settings.html" data-title="Settings">Settings</a>
-        </li>
-        <li>
-          <a href="feedback.html" data-title="Search">Feedback</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="title">
-      <h2>Feedback</h2>
-      <a href="javascript:void(0);">Hello Bob !</a>
-    </div>
-  
-    <form>
-        <div class="form-group container">
+    <span class="bckg"></span>
+    <header>
+        <a href="#">
+            <h1>Dashboard</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" data-title="Home">Home</a>
+                </li>
+                <li>
+                    <a href="team.html" data-title="Team">Team</a>
+                </li>
+                <li>
+                    <a href="diary.html" data-title="Diary">Diary</a>
+                </li>
+                <li>
+                    <a href="timeline.html" data-title="Timeline">Timeline</a>
+                </li>
+                <li>
+                    <a href="settings.html" data-title="Settings">Settings</a>
+                </li>
+                <li>
+                    <a href="feedback.html" data-title="Search">Feedback</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="title">
             <h2>Submit anonymous feedback</h2>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+            <a href="javascript:void(0);">Hello Bob !</a>
+        </div>
+
+        <form>
+            <div class="form-group container">
+                <br>
+                <label for="topic">Enter topic of feedback</label>
+                <input type="text" class="form-control" id="topic" aria-describedby="textHelp"
+                    placeholder="Better coffee.">
+
+                <br>
+                <label for="topic">Enter feedback in detail</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-  </main>
+                <br>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
